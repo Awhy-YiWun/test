@@ -3,7 +3,8 @@
 <body>
 	<div id = "main"></div>
 	<script>
-	var html = document.getElementById("main");
+	var obj = document.getElementById('main');
+	var html = "";
 	html += '<table>';
 	for(var i = 0; i < 10; i++)
 	{
@@ -16,6 +17,7 @@
 	}
 	var error = "I don't know";
 	html += '</table>';
+	obj = innerHTML(html);
 	</script>
 </body>
 </html>
