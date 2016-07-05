@@ -1,7 +1,23 @@
 <html>
 <head></head>
 <body>
-	<p>Hello World!</p>
+	<div id = "main"></div>
+	<script>
+	var obj = document.getElementById("main");
+	var html = '';
+	html += '<table>';
+	for(var i = 0; i < 10; i++)
+	{
+		html += '<tr>';
+		for(var j = 0; j < 10; j++)
+		{
+			html = html + '<td>' + i * j + '</rd>';
+		}
+		html += '</tr>';
+	}
+
+	html += '</table>';
+	</script>
 </body>
 </html>
 
